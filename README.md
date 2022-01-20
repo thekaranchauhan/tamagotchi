@@ -1,6 +1,6 @@
 ## Demo
 
-You can see a demo of this website at [moviepedia-beta.vercel.app/](https://tamagotchi.thekaranchauhan.com)
+You can see a demo of this website at [tamagotchi.thekaranchauhan.com](https://tamagotchi.thekaranchauhan.com)
 
 ## Teknologies
 
