@@ -1,0 +1,218 @@
+{
+  "petMood": [
+    {
+      "mood": "Happy",
+      "saying": "It's park day today....Yay!!!!"
+    },
+    {
+      "mood": "Sad",
+      "saying": "There is no one to play with me today1"
+    },
+    {
+      "mood": "Happy",
+      "saying": "Let's go for a walk!"
+    },
+    {
+      "mood": "Angry",
+      "saying": "Stop petting neighbour's dog!"
+    },
+    {
+      "mood": "Jokey",
+      "saying": "Look at my nice fur!"
+    },
+    {
+      "mood": "Angry",
+      "saying": "Stop touching my tail!"
+    },
+    {
+      "mood": "Angry",
+      "saying": "Why your friend's dog playing with my ball?"
+    },
+    {
+      "mood": "Happy",
+      "saying": "Today is a nice sunny day!"
+    },
+    {
+      "mood": "Angry",
+      "saying": "I should not have torn the car seat!"
+    },
+    {
+      "mood": "Sad",
+      "saying": "No walk today"
+    },
+    {
+      "mood": "Jokey",
+      "saying": "I walked more than 2 miles todays...Hello muscles!"
+    },
+    {
+      "mood": "Jokey",
+      "saying": "Let's play on ground!"
+    },
+    {
+      "mood": "Sad",
+      "saying": "Playing with old toy is boring!"
+    },
+    {
+      "mood": "Sad",
+      "saying": "Too much exercise today...all alone"
+    },
+    {
+      "mood": "Happy",
+      "saying": "I got a new toy!"
+    },
+    {
+      "mood": "Angry",
+      "saying": "New couch feels itchy!"
+    },
+    {
+      "mood": "Happy",
+      "saying": "Thank you for the new collar."
+    },
+    {
+      "mood": "Sad",
+      "saying": "No one will bring new pets that I can play with!"
+    },
+    {
+      "mood": "Angry",
+      "saying": "Stop pulling my ears...Aaagh!"
+    },
+    {
+      "mood": "Sad",
+      "saying": "Let's go home, I can't play alone!"
+    },
+    {
+      "mood": "Happy",
+      "saying": "It's park day today....Yay!!!!"
+    },
+    {
+      "mood": "Sad",
+      "saying": "Too much exercise today...all alone"
+    },
+    {
+      "mood": "Sad",
+      "saying": "No walk today"
+    },
+    {
+      "mood": "Jokey",
+      "saying": "I walked more than 2 miles todays...Hello muscles!"
+    },
+    {
+      "mood": "Jokey",
+      "saying": "Let's play on ground!"
+    }
+  ],
+  "foods": [
+    {
+      "name": "Chocolate",
+      "foodPoints": 2,
+      "sick": 0.6,
+      "quantity": 4
+    },
+    {
+      "name": "Ham",
+      "foodPoints": 15,
+      "sick": 0.7,
+      "quantity": 10
+    },
+    {
+      "name": "Avocado",
+      "foodPoints": 3,
+      "sick": 0.2,
+      "quantity": 8
+    },
+
+    {
+      "name": "Chicken",
+      "foodPoints": 19,
+      "sick": 0.6,
+      "quantity": 2
+    },
+    {
+      "name": "Almonds",
+      "foodPoints": 5,
+      "sick": 0.3,
+      "quantity": 10
+    },
+    {
+      "name": "Fish",
+      "foodPoints": 19,
+      "sick": 0.4,
+      "quantity": 5
+    },
+
+    {
+      "name": "Corn",
+      "foodPoints": 15,
+      "sick": 0.3,
+      "quantity": 8
+    },
+    {
+      "name": "Dough",
+      "foodPoints": 6,
+      "sick": 0.5,
+      "quantity": 7
+    },
+    {
+      "name": "Milk",
+      "foodPoints": 17,
+      "sick": 0.5,
+      "quantity": 4
+    },
+    {
+      "name": "Cheese",
+      "foodPoints": 8,
+      "sick": 0.5,
+      "quantity": 5
+    },
+    {
+      "name": "Peanuts",
+      "foodPoints": 14,
+      "sick": 0.3,
+      "quantity": 14
+    },
+    {
+      "name": "Banana",
+      "foodPoints": 5,
+      "sick": 0.6,
+      "quantity": 7
+    },
+    {
+      "name": "Pork",
+      "foodPoints": 16,
+      "sick": 0.8,
+      "quantity": 9
+    },
+
+    {
+      "name": "Shrimp",
+      "foodPoints": 17,
+      "sick": 0.2,
+      "quantity": 8
+    },
+    {
+      "name": "Mushrooms",
+      "foodPoints": 2,
+      "sick": 0.5,
+      "quantity": 5
+    },
+
+    {
+      "name": "Potatoes",
+      "foodPoints": 19,
+      "sick": 0.2,
+      "quantity": 11
+    }
+  ],
+  "compliments": [
+    "Hi $user, you're doing great!",
+    "Hi $user, you're looking great!",
+    "Hi $user, thanks for being so kind!",
+    "Hi $user, thanks for feeding me!",
+    "Hi $user, nice to see you!",
+    "Hi $user, nice computer",
+    "Hi $user, you're a nice person!",
+    "Hi $user, you're a great friend!",
+    "Hi $user, you're a great person!",
+    "Hi $user, you're amazing!"
+  ]
+}

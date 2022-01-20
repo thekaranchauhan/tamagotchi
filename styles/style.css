@@ -1,0 +1,152 @@
+@import './theme.css';
+
+main {
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background: url('../assets/bg.jpg');
+  background-size: cover;
+}
+
+form.details {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(5px);
+  width: 90%;
+  max-width: 600px;
+}
+
+form.details input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 200px;
+}
+
+form.details .close-btn {
+  position: absolute;
+  height: 2rem;
+  place-items: center;
+  width: 2rem;
+  top: 1rem;
+  right: 1rem;
+}
+
+/* Pet styles */
+.pet {
+  place-items: center;
+  grid-template-columns: 1fr;
+  overflow-x: hidden;
+}
+
+.pet svg {
+  width: 95%;
+  max-width: 650px;
+  animation: slideY 1s ease-in-out;
+}
+@keyframes slideY {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.st0 {
+  fill: #ecbcb4;
+  stroke: #000000;
+  stroke-width: 2.7701;
+  stroke-miterlimit: 10;
+}
+
+/* .st1 {
+  font-family: 'MyriadPro-Regular';
+} */
+
+.st2 {
+  font-size: 36.0627px;
+}
+
+.st3 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 2.7701;
+  stroke-miterlimit: 10;
+}
+
+.st4 {
+  fill: #4a0e00;
+}
+
+.st5 {
+  stroke: none;
+  stroke-width: 1.3851;
+  fill: #4a0e00;
+  stroke-miterlimit: 10;
+}
+
+#lip {
+  transform: translateY(-20px);
+}
+#leftEyebrow,
+#rightEyebrow {
+  transform: translateY(-30px);
+  fill: #4a0e00;
+}
+
+.btn {
+  transform-origin: left;
+}
+
+/* Chat bubble */
+.text {
+  bottom: 3rem;
+}
+.bubble {
+  position: relative;
+  background: #ffffffdd;
+  filter: drop-shadow(0px 3px 3px rgba(163, 163, 163, 0.41));
+  text-align: center;
+  width: 70vw;
+  max-width: 400px;
+  height: 120px;
+  border-radius: 10px;
+  z-index: 1000;
+  padding: 8px;
+  animation: slide 0.5s ease-in-out;
+}
+.bubble:after {
+  content: '';
+  position: absolute;
+  z-index: 999;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-style: solid;
+  border-color: #fffd transparent;
+  border-width: 0 20px 20px;
+  top: -20px;
+  left: 15%;
+  margin-left: -20px;
+}
+.countdown {
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+  background: #ffffffdd;
+  filter: drop-shadow(0px 3px 3px rgba(163, 163, 163, 0.41));
+  border-radius: 8px;
+  padding: 8px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateY(-2rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
